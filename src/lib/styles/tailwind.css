@@ -1,0 +1,4 @@
+/* init import from svelte */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
