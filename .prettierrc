@@ -1,0 +1,30 @@
+{
+	"semi": false,
+	"singleAttributePerLine": true,
+	"arrowParens": "avoid",
+	"bracketSameLine": true,
+	"bracketSpacing": true,
+	"endOfLine": "lf",
+	"useTabs": true,
+	"singleQuote": true,
+	"tabWidth": 2,
+	"trailingComma": "es5",
+	"printWidth": 100,
+	"importOrder": ["^@core/(.*)$", "", "^@server/(.*)$", "", "^@ui/(.*)$", "", "^[./]"],
+	"importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy"],
+	"importOrderTypeScriptVersion": "5.0.0",
+	"importOrderCaseSensitive": false,
+	"plugins": [
+		"prettier-plugin-svelte",
+		"prettier-plugin-tailwindcss",
+		"@ianvs/prettier-plugin-sort-imports"
+	],
+	"overrides": [
+		{
+			"files": "*.svelte",
+			"options": {
+				"parser": "svelte"
+			}
+		}
+	]
+}
