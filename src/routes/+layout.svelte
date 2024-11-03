@@ -1,10 +1,11 @@
 <script lang="ts">
+	import NavBar from '$lib/components/nav-bar'
+
 	import '$lib/styles/app.css'
 	import '$lib/styles/tailwind.css'
 
 	let { children } = $props()
 </script>
 
-<h1>Start of children</h1>
+<NavBar />
 {@render children()}
-<h1>End of children</h1>
